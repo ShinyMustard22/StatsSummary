@@ -24,8 +24,8 @@ def main():
     print("Population variance:", statistics.pvariance(numbers))
     print("Sample variance:", statistics.variance(numbers))
 
-    print("Sample standard deviation:", statistics.pstdev(numbers))
-    print("Population standard deviation:", statistics.stdev(numbers))
+    print("Population standard deviation:", statistics.pstdev(numbers))
+    print("Sample standard deviation:", statistics.stdev(numbers))
 
 
 if __name__ == "__main__":
